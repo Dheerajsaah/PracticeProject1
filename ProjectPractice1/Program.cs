@@ -2,9 +2,11 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+     static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int a = 12, b = 15;
+            int c = a + b;
+            Console.WriteLine(c);
         }
     }
 }
